@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.header{
+    padding-top: 1rem;
+    font-size: 30px;
+    text-align: center;
+    flex: 1;
+    background:#97c8d6;
+}
+.content{
+    flex: 12;
+    display: flex;
+    flex-direction: row;
+    background:#c4deee;
+}
+.stack{
+    flex: 5;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.stack-word{
+    background: #f3cd86;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.input{
+    flex:5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-size: 60px;
+}
+.monitor{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    align-content: center;
+    background: #f3cd86;
+    font-size: 60px;
+}
+.word-input{
+    font-size: 50px;
+    margin-top: 100px;
+    padding: 20px;
+    border:none;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+.word-button{
+    padding: 5px;
+    margin-top: 20px;
+    border:none;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+
+}
+
+.loading{
+    background: gray;
+}
