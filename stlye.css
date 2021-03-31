@@ -126,9 +126,8 @@ html, body{
     }
     .stack{
         text-align: center;
-        margin-top:100px;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
+
     }
 }
