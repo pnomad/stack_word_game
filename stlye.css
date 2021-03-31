@@ -10,9 +10,7 @@ html, body{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
 }
 .header{
     padding-top: 1rem;
@@ -84,4 +82,42 @@ html, body{
 
 .loading{
     background: gray;
+}
+
+@media screen and (max-width:612px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        padding-top: 0.5rem;
+        font-size: 20px;
+        flex: 0.5;
+    }
+    .word-input{
+        font-size: 30px;
+        margin-top: 50px;
+        padding: 10px;
+        border:none;
+        border-radius: 5px;
+        width: 280px;
+        height: 40px;
+    }
+    .word-button{
+        padding: 5px;
+        margin-top: 10px;
+        border:none;
+        border-radius: 5px;
+        width: 180px;
+        height: 60px;
+        font-size: 40px;
+    }
+    .stack-word{
+        background: #f3cd86;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-size: 24px;
+    }
 }
