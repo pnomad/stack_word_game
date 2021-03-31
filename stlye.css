@@ -113,11 +113,22 @@ html, body{
         font-size: 40px;
     }
     .stack-word{
+  
+        justify-content: center;
+        align-items: center;
         background: #f3cd86;
+        width:200px;
         padding: 8px;
         margin-top: 5px;
         margin-bottom: 5px;
         border-radius: 5px;
         font-size: 24px;
+    }
+    .stack{
+        text-align: center;
+        margin-top:100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
